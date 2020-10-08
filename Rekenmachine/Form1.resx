@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Knop_nul.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Knop_nul.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_nul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 316</value>
+  </data>
+  <data name="Knop_nul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 46</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Knop_nul.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Knop_nul.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Knop_nul.Name" xml:space="preserve">
+    <value>Knop_nul</value>
+  </data>
+  <data name="&gt;&gt;Knop_nul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_nul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_nul.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Knop_haakje.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_haakje.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_haakje.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 316</value>
+  </data>
+  <data name="Knop_haakje.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_haakje.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Knop_haakje.Text" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="&gt;&gt;Knop_haakje.Name" xml:space="preserve">
+    <value>Knop_haakje</value>
+  </data>
+  <data name="&gt;&gt;Knop_haakje.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_haakje.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_haakje.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Knop_is.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_is.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_is.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 316</value>
+  </data>
+  <data name="Knop_is.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_is.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Knop_is.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;Knop_is.Name" xml:space="preserve">
+    <value>Knop_is</value>
+  </data>
+  <data name="&gt;&gt;Knop_is.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_is.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_is.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Knop_1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 265</value>
+  </data>
+  <data name="Knop_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Knop_1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Knop_1.Name" xml:space="preserve">
+    <value>Knop_1</value>
+  </data>
+  <data name="&gt;&gt;Knop_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Knop_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 265</value>
+  </data>
+  <data name="Knop_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Knop_2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Knop_2.Name" xml:space="preserve">
+    <value>Knop_2</value>
+  </data>
+  <data name="&gt;&gt;Knop_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Knop_drie.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_drie.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_drie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 265</value>
+  </data>
+  <data name="Knop_drie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_drie.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Knop_drie.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Knop_drie.Name" xml:space="preserve">
+    <value>Knop_drie</value>
+  </data>
+  <data name="&gt;&gt;Knop_drie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_drie.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_drie.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Knop_plus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_plus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_plus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 265</value>
+  </data>
+  <data name="Knop_plus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_plus.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Knop_plus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;Knop_plus.Name" xml:space="preserve">
+    <value>Knop_plus</value>
+  </data>
+  <data name="&gt;&gt;Knop_plus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_plus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_plus.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Knop_min.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_min.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 215</value>
+  </data>
+  <data name="Knop_min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_min.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Knop_min.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;Knop_min.Name" xml:space="preserve">
+    <value>Knop_min</value>
+  </data>
+  <data name="&gt;&gt;Knop_min.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_min.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_min.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Knop_zes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_zes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_zes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 215</value>
+  </data>
+  <data name="Knop_zes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_zes.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Knop_zes.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Knop_zes.Name" xml:space="preserve">
+    <value>Knop_zes</value>
+  </data>
+  <data name="&gt;&gt;Knop_zes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_zes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_zes.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Knop_vijf.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_vijf.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_vijf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 215</value>
+  </data>
+  <data name="Knop_vijf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_vijf.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Knop_vijf.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Knop_vijf.Name" xml:space="preserve">
+    <value>Knop_vijf</value>
+  </data>
+  <data name="&gt;&gt;Knop_vijf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_vijf.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_vijf.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Knop_vier.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_vier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_vier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 215</value>
+  </data>
+  <data name="Knop_vier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_vier.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Knop_vier.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Knop_vier.Name" xml:space="preserve">
+    <value>Knop_vier</value>
+  </data>
+  <data name="&gt;&gt;Knop_vier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_vier.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_vier.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Knop_keer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_keer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_keer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 164</value>
+  </data>
+  <data name="Knop_keer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_keer.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="Knop_keer.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;Knop_keer.Name" xml:space="preserve">
+    <value>Knop_keer</value>
+  </data>
+  <data name="&gt;&gt;Knop_keer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_keer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_keer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Knop_negen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_negen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_negen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 164</value>
+  </data>
+  <data name="Knop_negen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_negen.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="Knop_negen.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Knop_negen.Name" xml:space="preserve">
+    <value>Knop_negen</value>
+  </data>
+  <data name="&gt;&gt;Knop_negen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_negen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_negen.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Knop_acht.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_acht.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_acht.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 164</value>
+  </data>
+  <data name="Knop_acht.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_acht.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Knop_acht.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Knop_acht.Name" xml:space="preserve">
+    <value>Knop_acht</value>
+  </data>
+  <data name="&gt;&gt;Knop_acht.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_acht.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_acht.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Knop_zeven.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_zeven.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_zeven.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 164</value>
+  </data>
+  <data name="Knop_zeven.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_zeven.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Knop_zeven.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Knop_zeven.Name" xml:space="preserve">
+    <value>Knop_zeven</value>
+  </data>
+  <data name="&gt;&gt;Knop_zeven.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_zeven.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_zeven.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Knop_delen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_delen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_delen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 113</value>
+  </data>
+  <data name="Knop_delen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_delen.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Knop_delen.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;Knop_delen.Name" xml:space="preserve">
+    <value>Knop_delen</value>
+  </data>
+  <data name="&gt;&gt;Knop_delen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_delen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_delen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Knop_backspace.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_backspace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_backspace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 113</value>
+  </data>
+  <data name="Knop_backspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_backspace.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="Knop_backspace.Text" xml:space="preserve">
+    <value>⌫</value>
+  </data>
+  <data name="&gt;&gt;Knop_backspace.Name" xml:space="preserve">
+    <value>Knop_backspace</value>
+  </data>
+  <data name="&gt;&gt;Knop_backspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_backspace.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_backspace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Knop_C.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 113</value>
+  </data>
+  <data name="Knop_C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_C.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Knop_C.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;Knop_C.Name" xml:space="preserve">
+    <value>Knop_C</value>
+  </data>
+  <data name="&gt;&gt;Knop_C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_C.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_C.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Knop_CE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_CE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_CE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 113</value>
+  </data>
+  <data name="Knop_CE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 46</value>
+  </data>
+  <data name="Knop_CE.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="Knop_CE.Text" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="&gt;&gt;Knop_CE.Name" xml:space="preserve">
+    <value>Knop_CE</value>
+  </data>
+  <data name="&gt;&gt;Knop_CE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_CE.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_CE.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Knop_percentage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_percentage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_percentage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 62</value>
+  </data>
+  <data name="Knop_percentage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 46</value>
+  </data>
+  <data name="Knop_percentage.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Knop_percentage.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="&gt;&gt;Knop_percentage.Name" xml:space="preserve">
+    <value>Knop_percentage</value>
+  </data>
+  <data name="&gt;&gt;Knop_percentage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_percentage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_percentage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Knop_euro.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 12pt</value>
+  </data>
+  <data name="Knop_euro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Knop_euro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="Knop_euro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 46</value>
+  </data>
+  <data name="Knop_euro.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Knop_euro.Text" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="&gt;&gt;Knop_euro.Name" xml:space="preserve">
+    <value>Knop_euro</value>
+  </data>
+  <data name="&gt;&gt;Knop_euro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Knop_euro.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Knop_euro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Textbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 24pt</value>
+  </data>
+  <data name="Textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="Textbox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 44</value>
+  </data>
+  <data name="Textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="Textbox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Textbox.Name" xml:space="preserve">
+    <value>Textbox</value>
+  </data>
+  <data name="&gt;&gt;Textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Textbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Textbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>293, 373</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Rekenmachine</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Rekenmachine</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
