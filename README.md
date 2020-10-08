@@ -8,3 +8,5 @@ Opdracht: Maak een rekenmachine met klein geheugen, met procenten en Euro's kan 
 ! Mooie interface is belangrijk
 
 Aan de hand van "Een mooi interface is hier belangrijk." ga ik ervan uit dat de rekenmachine een Windows Form Application is.
+
+
