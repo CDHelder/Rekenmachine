@@ -51,6 +51,7 @@
             this.Knop_percentage = new System.Windows.Forms.Button();
             this.Knop_euro = new System.Windows.Forms.Button();
             this.Textbox = new System.Windows.Forms.TextBox();
+            this.labelCurrentOperation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Knop_nul
@@ -72,6 +73,7 @@
             resources.ApplyResources(this.Knop_is, "Knop_is");
             this.Knop_is.Name = "Knop_is";
             this.Knop_is.UseVisualStyleBackColor = true;
+            this.Knop_is.Click += new System.EventHandler(this.Is_click);
             // 
             // Knop_1
             // 
@@ -92,20 +94,21 @@
             resources.ApplyResources(this.Knop_drie, "Knop_drie");
             this.Knop_drie.Name = "Knop_drie";
             this.Knop_drie.UseVisualStyleBackColor = true;
-            this.Knop_drie.Click += new System.EventHandler(this.S);
+            this.Knop_drie.Click += new System.EventHandler(this.Knop_click);
             // 
             // Knop_plus
             // 
             resources.ApplyResources(this.Knop_plus, "Knop_plus");
             this.Knop_plus.Name = "Knop_plus";
             this.Knop_plus.UseVisualStyleBackColor = true;
+            this.Knop_plus.Click += new System.EventHandler(this.operator_click);
             // 
             // Knop_min
             // 
             resources.ApplyResources(this.Knop_min, "Knop_min");
             this.Knop_min.Name = "Knop_min";
             this.Knop_min.UseVisualStyleBackColor = true;
-            this.Knop_min.Click += new System.EventHandler(this.Knop_min_Click);
+            this.Knop_min.Click += new System.EventHandler(this.operator_click);
             // 
             // Knop_zes
             // 
@@ -133,7 +136,7 @@
             resources.ApplyResources(this.Knop_keer, "Knop_keer");
             this.Knop_keer.Name = "Knop_keer";
             this.Knop_keer.UseVisualStyleBackColor = true;
-            this.Knop_keer.Click += new System.EventHandler(this.Knop_keer_Click);
+            this.Knop_keer.Click += new System.EventHandler(this.operator_click);
             // 
             // Knop_negen
             // 
@@ -161,7 +164,7 @@
             resources.ApplyResources(this.Knop_delen, "Knop_delen");
             this.Knop_delen.Name = "Knop_delen";
             this.Knop_delen.UseVisualStyleBackColor = true;
-            this.Knop_delen.Click += new System.EventHandler(this.Knop_delen_Click);
+            this.Knop_delen.Click += new System.EventHandler(this.operator_click);
             // 
             // Knop_backspace
             // 
@@ -175,14 +178,14 @@
             resources.ApplyResources(this.Knop_C, "Knop_C");
             this.Knop_C.Name = "Knop_C";
             this.Knop_C.UseVisualStyleBackColor = true;
-            this.Knop_C.Click += new System.EventHandler(this.Knop_C_Click);
+            this.Knop_C.Click += new System.EventHandler(this.C_click);
             // 
             // Knop_CE
             // 
             resources.ApplyResources(this.Knop_CE, "Knop_CE");
             this.Knop_CE.Name = "Knop_CE";
             this.Knop_CE.UseVisualStyleBackColor = true;
-            this.Knop_CE.Click += new System.EventHandler(this.Knop_CE_Click);
+            this.Knop_CE.Click += new System.EventHandler(this.CE_click);
             // 
             // Knop_percentage
             // 
@@ -203,13 +206,20 @@
             // 
             resources.ApplyResources(this.Textbox, "Textbox");
             this.Textbox.Name = "Textbox";
-            this.Textbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Textbox.TextChanged += new System.EventHandler(this.Textbox_TextChanged);
+            // 
+            // labelCurrentOperation
+            // 
+            resources.ApplyResources(this.labelCurrentOperation, "labelCurrentOperation");
+            this.labelCurrentOperation.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelCurrentOperation.Name = "labelCurrentOperation";
             // 
             // Rekenmachine
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Controls.Add(this.labelCurrentOperation);
             this.Controls.Add(this.Textbox);
             this.Controls.Add(this.Knop_percentage);
             this.Controls.Add(this.Knop_euro);
@@ -265,6 +275,7 @@
         private System.Windows.Forms.Button Knop_percentage;
         private System.Windows.Forms.Button Knop_euro;
         private System.Windows.Forms.TextBox Textbox;
+        private System.Windows.Forms.Label labelCurrentOperation;
     }
 }
 

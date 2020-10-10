@@ -12,6 +12,11 @@ namespace Rekenmachine
 {
     public partial class Rekenmachine : Form
     {
+        Double resultValue = 0;
+        String operationPerformed = "";
+        bool isOperationPerformed = false;
+
+
         public Rekenmachine()
         {
             InitializeComponent();
@@ -22,37 +27,79 @@ namespace Rekenmachine
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Knop_click(object sender, EventArgs e)
         {
+            if ((Textbox.Text == "0") || (isOperationPerformed))
+                Textbox.Clear();
+
+            isOperationPerformed = false;
+            Button button = (Button)sender;
+            if (button.Text == ",")
+            {
+                if(!Textbox.Text.Contains(","))
+                    Textbox.Text += button.Text;
+
+            }else
+            Textbox.Text += button.Text;
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void operator_click(object sender, EventArgs e)
         {
+            Button button = (Button)sender;
 
+            if (resultValue != 0)
+            {
+                Knop_is.PerformClick();S
+                operationPerformed = button.Text;
+                labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                isOperationPerformed = true;
+
+            }
+            else
+            {
+                operationPerformed = button.Text;
+                resultValue = Double.Parse(Textbox.Text);
+                labelCurrentOperation.Text = resultValue + " " + operationPerformed;
+                isOperationPerformed = true;
+            }
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void C_click(object sender, EventArgs e)
         {
-
+            Textbox.Text = "0";
         }
 
-        private void button22_Click(object sender, EventArgs e)
+        private void CE_click(object sender, EventArgs e)
         {
-
+            Textbox.Text = "0";
+            resultValue = 0;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void Is_click(object sender, EventArgs e)
         {
+            switch (operationPerformed)
+            {
 
+                case "+":
+                    Textbox.Text = (resultValue + Double.Parse(Textbox.Text)).ToString();
+                    break;
+                case "-":
+                    Textbox.Text = (resultValue - Double.Parse(Textbox.Text)).ToString();
+                    break;
+                case "*":
+                    Textbox.Text = (resultValue * Double.Parse(Textbox.Text)).ToString();
+                    break;
+                case "/":
+                    Textbox.Text = (resultValue / Double.Parse(Textbox.Text)).ToString();
+                    break;
+            
+            }
+            resultValue = Double.Parse(Textbox.Text);
+            labelCurrentOperation.Text = "";
         }
 
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_euro_Click(object sender, EventArgs e)
+        private void Textbox_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -62,42 +109,12 @@ namespace Rekenmachine
 
         }
 
-        private void Knop_delen_Click(object sender, EventArgs e)
+        private void Knop_euro_Click(object sender, EventArgs e)
         {
 
         }
 
         private void Knop_backspace_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_C_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_CE_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_keer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_min_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void S(object sender, EventArgs e)
         {
 
         }

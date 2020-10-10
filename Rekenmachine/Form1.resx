@@ -126,7 +126,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_nul.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 316</value>
+    <value>12, 361</value>
   </data>
   <data name="Knop_nul.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 46</value>
@@ -148,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_nul.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="Knop_haakje.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -157,7 +157,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_haakje.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 316</value>
+    <value>150, 361</value>
   </data>
   <data name="Knop_haakje.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_haakje.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="Knop_is.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -187,7 +187,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_is.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 316</value>
+    <value>219, 361</value>
   </data>
   <data name="Knop_is.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -208,7 +208,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_is.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="Knop_1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -217,7 +217,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 265</value>
+    <value>12, 310</value>
   </data>
   <data name="Knop_1.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -238,7 +238,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_1.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="Knop_2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -247,7 +247,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>80, 265</value>
+    <value>81, 310</value>
   </data>
   <data name="Knop_2.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="Knop_drie.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -277,7 +277,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_drie.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 265</value>
+    <value>150, 310</value>
   </data>
   <data name="Knop_drie.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -298,7 +298,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_drie.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="Knop_plus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -307,7 +307,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_plus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 265</value>
+    <value>218, 310</value>
   </data>
   <data name="Knop_plus.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -328,7 +328,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_plus.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="Knop_min.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -337,7 +337,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_min.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 215</value>
+    <value>219, 260</value>
   </data>
   <data name="Knop_min.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -358,7 +358,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_min.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="Knop_zes.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -367,7 +367,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_zes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 215</value>
+    <value>151, 260</value>
   </data>
   <data name="Knop_zes.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -388,7 +388,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_zes.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="Knop_vijf.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -397,7 +397,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_vijf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 215</value>
+    <value>82, 260</value>
   </data>
   <data name="Knop_vijf.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -418,7 +418,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_vijf.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="Knop_vier.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -427,7 +427,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_vier.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 215</value>
+    <value>13, 260</value>
   </data>
   <data name="Knop_vier.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -448,7 +448,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_vier.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="Knop_keer.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -457,7 +457,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_keer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 164</value>
+    <value>219, 209</value>
   </data>
   <data name="Knop_keer.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -466,7 +466,7 @@
     <value>36</value>
   </data>
   <data name="Knop_keer.Text" xml:space="preserve">
-    <value>X</value>
+    <value>*</value>
   </data>
   <data name="&gt;&gt;Knop_keer.Name" xml:space="preserve">
     <value>Knop_keer</value>
@@ -478,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_keer.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="Knop_negen.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -487,7 +487,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_negen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 164</value>
+    <value>151, 209</value>
   </data>
   <data name="Knop_negen.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -508,7 +508,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_negen.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="Knop_acht.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -517,7 +517,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_acht.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 164</value>
+    <value>82, 209</value>
   </data>
   <data name="Knop_acht.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -538,7 +538,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_acht.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="Knop_zeven.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -547,7 +547,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_zeven.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 164</value>
+    <value>13, 209</value>
   </data>
   <data name="Knop_zeven.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -568,7 +568,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_zeven.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="Knop_delen.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -577,7 +577,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_delen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 113</value>
+    <value>219, 158</value>
   </data>
   <data name="Knop_delen.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -598,7 +598,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_delen.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Knop_backspace.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -607,7 +607,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_backspace.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 113</value>
+    <value>151, 158</value>
   </data>
   <data name="Knop_backspace.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -628,7 +628,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_backspace.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Knop_C.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -637,7 +637,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_C.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 113</value>
+    <value>82, 158</value>
   </data>
   <data name="Knop_C.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -658,7 +658,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_C.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="Knop_CE.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -667,7 +667,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_CE.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 113</value>
+    <value>13, 158</value>
   </data>
   <data name="Knop_CE.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 46</value>
@@ -688,7 +688,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_CE.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="Knop_percentage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -697,7 +697,7 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_percentage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 62</value>
+    <value>151, 107</value>
   </data>
   <data name="Knop_percentage.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 46</value>
@@ -718,7 +718,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_percentage.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="Knop_euro.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 12pt</value>
@@ -727,10 +727,10 @@
     <value>NoControl</value>
   </data>
   <data name="Knop_euro.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 62</value>
+    <value>13, 107</value>
   </data>
   <data name="Knop_euro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 46</value>
+    <value>132, 46</value>
   </data>
   <data name="Knop_euro.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -748,13 +748,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Knop_euro.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Textbox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 24pt</value>
   </data>
   <data name="Textbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>13, 57</value>
   </data>
   <data name="Textbox.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -764,6 +764,9 @@
   </data>
   <data name="Textbox.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
+  </data>
+  <data name="Textbox.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="Textbox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Right</value>
@@ -778,6 +781,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Textbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelCurrentOperation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 24pt</value>
+  </data>
+  <data name="labelCurrentOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 9</value>
+  </data>
+  <data name="labelCurrentOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 44</value>
+  </data>
+  <data name="labelCurrentOperation.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="labelCurrentOperation.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;labelCurrentOperation.Name" xml:space="preserve">
+    <value>labelCurrentOperation</value>
+  </data>
+  <data name="&gt;&gt;labelCurrentOperation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCurrentOperation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCurrentOperation.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -790,7 +820,7 @@
     <value>None</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>293, 373</value>
+    <value>293, 418</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Rekenmachine</value>
