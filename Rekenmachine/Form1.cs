@@ -50,10 +50,11 @@ namespace Rekenmachine
 
             if (resultValue != 0)
             {
-                Knop_is.PerformClick();S
+                Knop_is.PerformClick();
                 operationPerformed = button.Text;
                 labelCurrentOperation.Text = resultValue + " " + operationPerformed;
                 isOperationPerformed = true;
+                Textbox.Text = "0";
 
             }
             else
@@ -62,6 +63,7 @@ namespace Rekenmachine
                 resultValue = Double.Parse(Textbox.Text);
                 labelCurrentOperation.Text = resultValue + " " + operationPerformed;
                 isOperationPerformed = true;
+                Textbox.Text = "0";
             }
         }
 
@@ -74,27 +76,28 @@ namespace Rekenmachine
         {
             Textbox.Text = "0";
             resultValue = 0;
+            labelCurrentOperation.Text = "";
         }
 
         private void Is_click(object sender, EventArgs e)
         {
-            switch (operationPerformed)
-            {
-
-                case "+":
-                    Textbox.Text = (resultValue + Double.Parse(Textbox.Text)).ToString();
-                    break;
-                case "-":
-                    Textbox.Text = (resultValue - Double.Parse(Textbox.Text)).ToString();
-                    break;
-                case "*":
-                    Textbox.Text = (resultValue * Double.Parse(Textbox.Text)).ToString();
-                    break;
-                case "/":
-                    Textbox.Text = (resultValue / Double.Parse(Textbox.Text)).ToString();
-                    break;
+            if (labelCurrentOperation.Text.Length != 0)
+                switch (operationPerformed)
+                {
+                    case "+":
+                        Textbox.Text = (resultValue + Double.Parse(Textbox.Text)).ToString();
+                        break;
+                    case "-":
+                        Textbox.Text = (resultValue - Double.Parse(Textbox.Text)).ToString();
+                        break;
+                    case "*":
+                        Textbox.Text = (resultValue * Double.Parse(Textbox.Text)).ToString();
+                        break;
+                    case "/":
+                        Textbox.Text = (resultValue / Double.Parse(Textbox.Text)).ToString();
+                        break;
             
-            }
+                }
             resultValue = Double.Parse(Textbox.Text);
             labelCurrentOperation.Text = "";
         }
@@ -111,12 +114,16 @@ namespace Rekenmachine
 
         private void Knop_euro_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void Knop_backspace_Click(object sender, EventArgs e)
         {
+            if (Textbox.Text.Length != 1)
+                Textbox.Text = Textbox.Text.Substring(0, Textbox.Text.Length - 1);
 
+            else
+                Textbox.Text = "0";
         }
     }
 }
