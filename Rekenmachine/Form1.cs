@@ -32,22 +32,28 @@ namespace Rekenmachine
             if ((Textbox.Text == "0") || (isOperationPerformed))
                 Textbox.Clear();
 
+            if (labelEuro.Text == "€");
+            {
+                if (Textbox.Text.Contains(","))
+                    Textbox.Text = Textbox.Text.Substring(0, 2);
+                    //Hierzo moet nog de max twee decimalen in geval van € functie komen
+            }
+
             isOperationPerformed = false;
             Button button = (Button)sender;
             if (button.Text == ",")
             {
                 if(!Textbox.Text.Contains(","))
-                    Textbox.Text += button.Text;
+                    Textbox.Text += button.Text;     
 
             }else
             Textbox.Text += button.Text;
-
         }
 
         private void operator_click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-
+            
             if (resultValue != 0)
             {
                 Knop_is.PerformClick();
@@ -70,6 +76,7 @@ namespace Rekenmachine
         private void C_click(object sender, EventArgs e)
         {
             Textbox.Text = "0";
+            labelEuro.Text = "";
         }
 
         private void CE_click(object sender, EventArgs e)
@@ -77,6 +84,7 @@ namespace Rekenmachine
             Textbox.Text = "0";
             resultValue = 0;
             labelCurrentOperation.Text = "";
+            labelEuro.Text = "";
         }
 
         private void Is_click(object sender, EventArgs e)
@@ -96,8 +104,11 @@ namespace Rekenmachine
                     case "/":
                         Textbox.Text = (resultValue / Double.Parse(Textbox.Text)).ToString();
                         break;
-            
+
                 }
+            if (labelEuro.Text == "€");
+            Textbox.Text = (Math.Round(Double.Parse(Textbox.Text), 2).ToString());
+
             resultValue = Double.Parse(Textbox.Text);
             labelCurrentOperation.Text = "";
         }
@@ -114,7 +125,7 @@ namespace Rekenmachine
 
         private void Knop_euro_Click(object sender, EventArgs e)
         {
-            
+            labelEuro.Text = "€";
         }
 
         private void Knop_backspace_Click(object sender, EventArgs e)

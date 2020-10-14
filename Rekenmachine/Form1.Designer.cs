@@ -52,6 +52,7 @@
             this.Knop_euro = new System.Windows.Forms.Button();
             this.Textbox = new System.Windows.Forms.TextBox();
             this.labelCurrentOperation = new System.Windows.Forms.Label();
+            this.labelEuro = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Knop_nul
@@ -214,11 +215,18 @@
             this.labelCurrentOperation.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.labelCurrentOperation.Name = "labelCurrentOperation";
             // 
+            // labelEuro
+            // 
+            resources.ApplyResources(this.labelEuro, "labelEuro");
+            this.labelEuro.BackColor = System.Drawing.SystemColors.Window;
+            this.labelEuro.Name = "labelEuro";
+            // 
             // Rekenmachine
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Controls.Add(this.labelEuro);
             this.Controls.Add(this.labelCurrentOperation);
             this.Controls.Add(this.Textbox);
             this.Controls.Add(this.Knop_percentage);
@@ -276,6 +284,7 @@
         private System.Windows.Forms.Button Knop_euro;
         private System.Windows.Forms.TextBox Textbox;
         private System.Windows.Forms.Label labelCurrentOperation;
+        private System.Windows.Forms.Label labelEuro;
     }
 }
 
