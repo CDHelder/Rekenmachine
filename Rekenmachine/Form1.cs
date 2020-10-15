@@ -29,31 +29,37 @@ namespace Rekenmachine
 
         private void Knop_click(object sender, EventArgs e)
         {
+
             if ((Textbox.Text == "0") || (isOperationPerformed))
                 Textbox.Clear();
 
-            if (labelEuro.Text == "€");
+            /*if (labelEuro.Text == "€");
             {
                 if (Textbox.Text.Contains(","))
                     Textbox.Text = Textbox.Text.Substring(0, 2);
                     //Hierzo moet nog de max twee decimalen in geval van € functie komen
+            
             }
+            De functie werkt al doordat ie wordt afgerond
+            Ik ben hier nu al een tijdje mee bezig en kan nergens op komen.
+            Hij werkt gewoon goed alleen ziet het er appart uit
+            Dit is een vraagstuk waar iemand met kennis mij bij kan helpen aangezien ik wel benieuwd ben naar de oplossing
+            */
 
             isOperationPerformed = false;
             Button button = (Button)sender;
             if (button.Text == ",")
             {
-                if(!Textbox.Text.Contains(","))
-                    Textbox.Text += button.Text;     
-
-            }else
-            Textbox.Text += button.Text;
+                if (!Textbox.Text.Contains(","))
+                    Textbox.Text += button.Text;
+            } else
+                Textbox.Text += button.Text;
         }
 
         private void operator_click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            
+
             if (resultValue != 0)
             {
                 Knop_is.PerformClick();
@@ -89,6 +95,13 @@ namespace Rekenmachine
 
         private void Is_click(object sender, EventArgs e)
         {
+
+            if (Textbox.Text.Contains("%"))
+            {
+                if (!Textbox.Text.Contains("%"))
+                    Textbox.Text = (1 / Double.Parse(Textbox.Text) * Double.Parse(Textbox.Text)).ToString();
+            }
+
             if (labelCurrentOperation.Text.Length != 0)
                 switch (operationPerformed)
                 {
@@ -106,7 +119,7 @@ namespace Rekenmachine
                         break;
 
                 }
-            if (labelEuro.Text == "€");
+            if (labelEuro.Text == "€") ;
             Textbox.Text = (Math.Round(Double.Parse(Textbox.Text), 2).ToString());
 
             resultValue = Double.Parse(Textbox.Text);
@@ -114,11 +127,6 @@ namespace Rekenmachine
         }
 
         private void Textbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Knop_percentage_Click(object sender, EventArgs e)
         {
 
         }
@@ -135,6 +143,17 @@ namespace Rekenmachine
 
             else
                 Textbox.Text = "0";
+        }
+
+        private void Percentage_knop(object sender, EventArgs e)
+        {
+            if (labelCurrentOperation.Text.Contains("+") || (labelCurrentOperation.Text.Contains("*") || (labelCurrentOperation.Text.Contains("-") || labelCurrentOperation.Text.Contains("/")
+                if (Textbox.Text.Contains("%"))
+                {
+                    if (!Textbox.Text.Contains("%"))
+                        Textbox.Text += "%";
+                } else
+                    Textbox.Text += "%";
         }
     }
 }

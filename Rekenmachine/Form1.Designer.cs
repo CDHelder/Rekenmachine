@@ -194,7 +194,7 @@
             resources.ApplyResources(this.Knop_percentage, "Knop_percentage");
             this.Knop_percentage.Name = "Knop_percentage";
             this.Knop_percentage.UseVisualStyleBackColor = false;
-            this.Knop_percentage.Click += new System.EventHandler(this.Knop_percentage_Click);
+            this.Knop_percentage.Click += new System.EventHandler(this.Percentage_knop);
             // 
             // Knop_euro
             // 
